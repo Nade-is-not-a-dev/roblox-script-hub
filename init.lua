@@ -11,7 +11,7 @@ local G = (type(getgenv) == "function" and getgenv()) or _G
 
 -- URL dasar repo. Boleh di-override sebelum loadstring:
 -- getgenv().HUB_BASE_URL = "https://raw.githubusercontent.com/user/repo/main/"
-local BASE_URL = tostring(G.HUB_BASE_URL or "https://raw.githubusercontent.com/USER/REPO/main/")
+local BASE_URL = tostring(G.HUB_BASE_URL or "https://raw.githubusercontent.com/Nade-is-not-a-dev/roblox-script-hub/master/")
 if BASE_URL:sub(-1) ~= "/" then BASE_URL = BASE_URL .. "/" end
 
 -- Daftar game yang didukung. Tambah entri di sini untuk game berikutnya.

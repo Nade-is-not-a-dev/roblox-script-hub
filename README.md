@@ -12,12 +12,12 @@ README.md                        file ini
 
 1. Upload folder ini ke GitHub, lalu pakai URL raw, misalnya:
 
-   `https://raw.githubusercontent.com/USER/REPO/main/`
+   `https://raw.githubusercontent.com/Nade-is-not-a-dev/roblox-script-hub/master/`
 
 2. Di executor, jalankan loader. Bisa langsung dengan URL raw `:loadstring(game:HttpGet(".../init.lua"))()` atau dengan override URL dulu:
 
    ```lua
-   getgenv().HUB_BASE_URL = "https://raw.githubusercontent.com/USER/REPO/main/"
+   getgenv().HUB_BASE_URL = "https://raw.githubusercontent.com/Nade-is-not-a-dev/roblox-script-hub/master/"
    loadstring(game:HttpGet(getgenv().HUB_BASE_URL .. "init.lua"))()
    ```
 
