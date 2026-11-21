@@ -1,0 +1,8 @@
+/tools/
+/build/
+/tmp/
+*.key
+*.map
+*.sym
+*.deobf.lua
+*.ir.txt
